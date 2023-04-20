@@ -1,0 +1,18 @@
+{
+  "providers": {
+    "wttr-in": {
+      "security": []
+    }
+  },
+  "profiles": {
+    "weather/current-city": {
+      "version": "1.0.3",
+      "providers": {
+        "wttr-in": {}
+      },
+      "priority": [
+        "wttr-in"
+      ]
+    }
+  }
+}
